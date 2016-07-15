@@ -1,1 +1,2 @@
-export = require('leancloud-storage')
+import * as leancloud from 'leancloud-storage';
+export = leancloud;
