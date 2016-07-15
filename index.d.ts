@@ -236,6 +236,7 @@ declare namespace AV {
         key: string;
         targetClassName: string;
 
+        static reverseQuery(parentClass: string | Object, relationKey: string, child: Object): Query;
         constructor(parent?: Object, key?: string);
 
         //Adds a AV.Object or an array of AV.Objects to the relation.
