@@ -839,7 +839,3 @@ declare namespace AV {
   }
 
   export = AV;
-declare module 'leanengine' {
-    import alias = require('avoscloud-sdk');
-    export = alias;
-}
