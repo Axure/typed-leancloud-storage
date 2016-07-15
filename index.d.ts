@@ -300,6 +300,7 @@ declare namespace AV {
         static saveAll<T>(list: Object[], options?: Object.SaveAllOptions): Promise<T>;
 
         initialize(): void;
+        getObjectId(): string;
         add(attributeName: string, item: any): Object;
         addUnique(attributeName: string, item: any): any;
         change(options: any): Object;
