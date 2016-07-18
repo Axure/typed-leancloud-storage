@@ -822,6 +822,7 @@ declare namespace AV {
       function run<T>(name: string, data?: any, options?: SuccessFailureOptions): Promise<T>;
       function requestSmsCode<T>(data:any,options?: SuccessFailureOptions):Promise<T>;
       function verifySmsCode<T>(code:string, phone:string, options?:SuccessFailureOptions):Promise<T>;
+      function useMasterKey(): void;
     }
 
     /**
